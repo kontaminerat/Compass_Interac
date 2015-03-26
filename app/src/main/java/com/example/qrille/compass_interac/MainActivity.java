@@ -1,5 +1,6 @@
 package com.example.qrille.compass_interac;
 
+import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
@@ -41,6 +42,8 @@ public class MainActivity extends ActionBarActivity {
     }
 
     public void sendMessage(View view) {
-        Toast.makeText(this, "Clicked on Button", Toast.LENGTH_LONG).show();
+        Intent intent = new Intent(this, CompassActivity.class);
+        startActivity(intent);
+        //Toast.makeText(this, "Clicked on Button", Toast.LENGTH_LONG).show();
     }
 }
