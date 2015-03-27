@@ -25,6 +25,11 @@
             android:label="@string/title_activity_compass_acctivity"
             android:screenOrientation="portrait" >
         </activity>
+        <activity
+            android:name=".Compass2"
+            android:label="@string/title_activity_compass2"
+            android:screenOrientation="portrait">
+        </activity>
     </application>
 
 </manifest>

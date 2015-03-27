@@ -5,4 +5,5 @@
     <string name="action_settings">Settings</string>
     <string name="welcome">Welcome to this app!!!</string>
     <string name="title_activity_compass_acctivity">CompassAcctivity</string>
+    <string name="title_activity_compass2">compass2</string>
 </resources>
