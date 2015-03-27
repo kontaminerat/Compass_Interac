@@ -8,8 +8,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="40dp"
+        android:layout_marginBottom="100dp"
         android:layout_marginTop="20dp"
+        android:textSize="30dp"
         android:text="Heading: 0.0" />
 
     <ImageView
@@ -18,6 +19,8 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/tvHeading"
         android:layout_centerHorizontal="true"
+        android:minHeight="200dp"
+        android:minWidth="200dp"
         android:src="@mipmap/compass_pic" />
 
 </RelativeLayout>
