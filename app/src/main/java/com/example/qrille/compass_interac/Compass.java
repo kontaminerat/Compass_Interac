@@ -14,7 +14,7 @@ import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-public class Compass2 extends Activity implements SensorEventListener {
+public class Compass extends Activity implements SensorEventListener {
 
     private RelativeLayout view;
 

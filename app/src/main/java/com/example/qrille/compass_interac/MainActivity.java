@@ -42,7 +42,7 @@ public class MainActivity extends ActionBarActivity {
     }
 
     public void sendMessage(View view) {
-        Intent intent = new Intent(this, Compass2.class);
+        Intent intent = new Intent(this, Compass.class);
         startActivity(intent);
         //Toast.makeText(this, "Clicked on Button", Toast.LENGTH_LONG).show();
     }
